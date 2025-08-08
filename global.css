@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--red:#E3646E;
+--purple:#BB72E9;
+--blue:#3996DB;
+--green:#82BC4F;
+--yellow:#EABD5F;
+--gray-100:#E2E4E9;
+--gray-200:#C0C4CE;
+--gray-300:#878EA1;
+--gray-400:#292C34;
+--gray-500:#16181D;
+--gray-600:#0D0E11;
+
+--font-family: "Asap", sans-serif;
+--font-family-2: "Inconsolata", sans-serif;
+--font-family-3: "Maven Pro", sans-serif;
+
+--Title-lg:56px/120% var(--font-family);
+--Title-md:24px/120% var(--font-family);
+--Title-sm:16px/120% var(--font-family);
+--Sub:20px/120% var(--font-family-2);
+--Text-md:16px/140% var(--font-family-3);
+--Text-sm:14px/140% var(--font-family-3);
+
+}
+
+.contain{
+    width: 1366px;
+    height: 750px;
+}
+
+header{
+    background-image: url(/assets/images/Background_Intro.png);
+    background-size: cover;
+    margin: auto;
+}
+
