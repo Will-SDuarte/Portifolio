@@ -3,18 +3,19 @@
     height: 87.27px;
     border-radius: 50%;
     object-fit: cover;
-   
+    padding: 4.36px;
 }
 
 #style{
     margin: 120px 284px 56px;
+    border: solid var(--red);
     border-radius: 50%;
     width: 96px;
     height: 96px;
     object-fit: cover;
-    position: relative;
-    padding: 5px; 
-    background: var(--red); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #perfil{
@@ -23,7 +24,7 @@
     align-items: center;
 }
 
-#perfil :nth-child(2){
+.sub{
     font: var(--Sub);
     color: var(--gray-200);
 }
@@ -37,7 +38,7 @@
     color: var(--gray-100);
 }
 
-#perfil :nth-child(4){
+.sm{
     font: var(--Text-sm);
     color: var(--gray-300);
 }
