@@ -31,7 +31,7 @@
 }
 
 .contain{
-    width: 1366px;
+    /* width: 1366px; */
     height: 750px;
 }
 
@@ -39,5 +39,7 @@ header{
     background-image: url(/assets/images/Background_Intro.png);
     background-size: cover;
     margin: auto;
+    /* width: 100%;
+    background-position: center; */
 }
 

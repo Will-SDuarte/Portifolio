@@ -8,7 +8,7 @@
 
 #style{
     margin: 120px 284px 56px;
-    border: solid var(--red);
+    border: solid var(--blue);
     border-radius: 50%;
     width: 96px;
     height: 96px;
@@ -42,3 +42,106 @@
     font: var(--Text-sm);
     color: var(--gray-300);
 }
+
+p + h1{
+    margin: 8px 0 20px
+} 
+
+
+#tec{
+    width: 754px;
+    height: 40px;
+    margin-top: 80px;
+    display: flex;  
+    justify-content: center;
+    gap: 16px; 
+    align-items: center;
+    margin-bottom: 94px;
+}
+
+#tec div:nth-child(1){
+    border: solid var(--gray-400);
+    background-color: var(--gray-400);
+    border-radius: 20px;
+    width: 114px;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    padding: 8px 16px 8px 16px;
+
+
+}
+#tec div:nth-child(2){
+    width: 105px;
+    height: 40px;
+    border: solid var(--gray-400);
+    background-color: var(--gray-400);
+    border-radius: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    padding: 8px 16px 8px 16px;
+   
+}
+#tec div:nth-child(3){
+    width: 92px;
+    height: 40px;
+    border: solid var(--gray-400);
+    background-color: var(--gray-400);
+    border-radius: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    padding: 8px 16px 8px 16px;
+
+}
+#tec div:nth-child(4){
+    width: 138px;
+    height: 40px;
+    border: solid var(--gray-400);
+    background-color: var(--gray-400);
+    border-radius: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    padding: 8px 16px 8px 16px;
+  
+}
+#tec div:nth-child(5){
+    width: 106px;
+    height: 40px;
+    border: solid var(--gray-400);
+    background-color: var(--gray-400);
+    border-radius: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    padding: 8px 16px 8px 16px;
+}
+
+#tec img{
+    width: 24px;
+    height: 24px;
+    border-radius: 0%;
+    object-fit: contain;
+}
+
+#tec p{
+    color: var(--gray-200);
+    font: var(--Text-md);
+}
+
+#seta img{
+    width: 23px;
+    height: 23px;
+}
+
+
+
+ 
