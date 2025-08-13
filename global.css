@@ -30,11 +30,6 @@
 
 }
 
-.contain{
-    /* width: 1366px; */
-    
-}
-
 header{
     background-image: url(/assets/images/Background_Intro.png);
     background-size: cover;
@@ -46,8 +41,8 @@ header{
 
 main{
     background-color: var(--gray-500);
-    margin: auto;
-    height: 800px;
+    /* margin: auto; */
+    height: 917px;
 }
 
 #servicos{
