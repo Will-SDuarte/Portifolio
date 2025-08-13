@@ -32,13 +32,14 @@
 
 .contain{
     /* width: 1366px; */
-    height: 750px;
+    
 }
 
 header{
     background-image: url(/assets/images/Background_Intro.png);
     background-size: cover;
     margin: auto;
+    height: 750px;
     /* width: 100%;
     background-position: center; */
 }
@@ -46,6 +47,12 @@ header{
 main{
     background-color: var(--gray-500);
     margin: auto;
+    height: 800px;
+}
+
+#servicos{
+    height: 480px;
+    background-color: var(--gray-600);
 }
 
 .color{

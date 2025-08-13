@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+    
 }
 
 .projeto {
@@ -53,5 +54,6 @@
 }
 
 main section {
-    margin-bottom: 144px;
+    padding-bottom: 144px;
 }
+
