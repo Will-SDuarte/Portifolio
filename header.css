@@ -29,10 +29,6 @@
     color: var(--gray-200);
 }
 
-#color{
-    color: var(--blue);
-}
-
 #perfil h1 {
     font: var(--Title-lg);
     color: var(--gray-100);
@@ -137,9 +133,15 @@ p + h1{
     font: var(--Text-md);
 }
 
-#seta img{
-    width: 23px;
-    height: 23px;
+#seta {
+    margin-bottom: 57px;
+
+    img{    
+
+        width: 32px;
+        height: 32px;
+    }
+
 }
 
 

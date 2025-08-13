@@ -43,3 +43,16 @@ header{
     background-position: center; */
 }
 
+main{
+    background-color: var(--gray-500);
+    margin: auto;
+}
+
+.color{
+    color: var(--blue);
+    font: var(--Sub);
+}
+
+html {
+  scroll-behavior: smooth;
+}
