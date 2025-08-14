@@ -58,3 +58,9 @@ main{
 html {
   scroll-behavior: smooth;
 }
+
+footer{
+    background-image: url(/assets/images/Background_Contacts.png);
+    background-size: cover;
+    height: 787px;
+}

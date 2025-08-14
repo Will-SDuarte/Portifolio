@@ -53,6 +53,10 @@
     margin: 12px 12px 17px 12px;
 }
 
+.projeto:hover{
+    border: solid 2px var(--gray-300);
+}
+
 main section {
     padding-bottom: 144px;
 }
