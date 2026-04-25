@@ -1,4 +1,4 @@
-#cabecalho h2{
+#cabecalho h2 {
     font: var(--Title-md);
     color: var(--gray-100);
 }
@@ -6,58 +6,82 @@
 #cabecalho {
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
     gap: 8px;
     padding-top: 72px;
-    margin-bottom: 56px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 #projetos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 24px;
-    
+    width: min(100%, var(--container-width));
+    margin: 0 auto;
 }
 
 .projeto {
-    width: 330px;
-    height: 280px;
-    /* border: solid ; */
+    width: 100%;
+    max-width: 330px;
+    min-height: 280px;
     background-color: var(--gray-400);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    justify-self: center;
+    padding: 12px;
+    border: solid 2px transparent;
 }
 
 .projeto img {
-    width: 306px;
-    height: 156px;
+    width: 100%;
+    aspect-ratio: 306 / 156;
     object-fit: cover;
-    margin: 12px 12px 8px 12px;
-    border-radius: 24px;
-    align-self: center;
+    margin-bottom: 8px;
+    border-radius: 12px;
 }
 
 .projeto h3 {
     font: var(--Title-sm);
     color: var(--gray-100);
-    margin: 12px 12px 0px 12px;
+    margin-top: 12px;
 }
 
 .projeto p {
     font: var(--Text-sm);
     color: var(--gray-200);
-    margin: 12px 12px 17px 12px;
+    margin-top: 12px;
 }
 
-.projeto:hover{
-    border: solid 2px var(--gray-300);
+.projeto:hover {
+    border-color: var(--gray-300);
 }
 
 main section {
-    padding-bottom: 144px;
+    padding: 0 var(--space-inline) 80px;
 }
 
+@media (min-width: 768px) {
+    #projetos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .projeto {
+        max-width: none;
+    }
+    main section {
+        padding-bottom: 96px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #cabecalho {
+        margin-bottom: 56px;
+    }
+    #projetos {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    main section {
+        padding-bottom: 144px;
+    }
+}
